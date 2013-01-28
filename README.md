@@ -2,7 +2,7 @@
 
 A small jQuery plugin to help get users from one place to another.
 
-## Usage
+### Usage
 
 ```javascript
 
