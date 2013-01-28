@@ -8,7 +8,6 @@
   Beau Charman | @beaucharman | http://beaucharman.me
 ------------------------------------------------ */
 
-```javascript
 $.fn.extend(
 {
   rockNScrollTo : function(speed, offset, callback)
@@ -23,4 +22,3 @@ $.fn.extend(
     });
   }
 });
-```

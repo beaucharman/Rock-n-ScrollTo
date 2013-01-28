@@ -3,6 +3,9 @@
 A small jQuery plugin to help get users from one place to another.
 
 ## Usage
+
+```javascript
+
 $('document').ready(function()
 {
   /* fire! */
@@ -15,3 +18,5 @@ $('document').ready(function()
     return false; /* stop anchor from performing it's default action. */
   });
 });
+
+```
