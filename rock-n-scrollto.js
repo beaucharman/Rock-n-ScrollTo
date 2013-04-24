@@ -11,7 +11,6 @@
  * 
  * Iterate through an object, array, string etc...
  * ------------------------------------------------------------------------ */
-
 $.fn.extend({
   rockNScrollTo : function(speed, offset, callback) {
     speed = speed       || 400;
