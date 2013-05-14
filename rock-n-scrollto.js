@@ -1,24 +1,30 @@
-/** 
+/**
  * Rock 'n ScrollTo
  * ------------------------------------------------------------------------
  * rock-n-scrollto.js
- * @version 1.0 | Monday, 28th January 2013
+ * @version 2.0 | Monday, 14th May 2013
  * @author  Beau Charman | @beaucharman | http://beaucharman.me
  * @link    https://gist.github.com/beaucharman/5127116/
- * @param array      | array
- * @param callback   | function
- * @return callback   | function
- * 
- * Iterate through an object, array, string etc...
+ * @param {object} options
+ *          {integer}  offset
+ *          {integer}  speed
+ *          {string}   easing
+ *          {function} callback
+ *
+ * Scroll from the currrent window state to a given element's top offest
  * ------------------------------------------------------------------------ */
-$.fn.extend({
-  rockNScrollTo : function(speed, offset, callback) {
-    speed = speed       || 400;
-    offset = offset     || 0;
-    callback = callback || null;
-    return this.each(function() {
-      var targetOffset = $(this).offset().top - offset;
-      $('body').animate({scrollTop: targetOffset}, speed, callback);
+;(function ($) {
+  $.fn.rockNScrollTo = function (options) {
+    var settings = $.extend({
+      'offset': 0,
+      'speed': 400,
+      'easing': 'swing',
+      'callback': null
+    }, options);
+    return this.each(function () {
+      $('body').animate({
+        scrollTop: $(this).offset().top - settings.offset
+      }, settings.speed, settings.easing, settings.callback);
     });
-  }
-});
+  };
+})(jQuery);
