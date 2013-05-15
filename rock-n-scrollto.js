@@ -14,6 +14,7 @@
  * Scroll from the currrent window state to a given element's top offest
  * ------------------------------------------------------------------------ */
 ;(function ($) {
+  'use strict';
   $.fn.rockNScrollTo = function (options) {
     var settings = $.extend({
       'offset': 0,
