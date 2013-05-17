@@ -1,6 +1,6 @@
 /**
  * Rock 'n ScrollTo
- * ------------------------------------------------------------------------
+ * ========================================================================
  * rock-n-scrollto.js
  * @version 2.0 | Monday, 14th May 2013
  * @author  Beau Charman | @beaucharman | http://beaucharman.me
@@ -12,7 +12,7 @@
  *          {function} callback
  *
  * Scroll from the currrent window state to a given element's top offest
- * ------------------------------------------------------------------------ */
+ * ======================================================================== */
 ;(function ($) {
   'use strict';
   $.fn.rockNScrollTo = function (options) {
