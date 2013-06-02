@@ -3,8 +3,9 @@
  * ========================================================================
  * rock-n-scrollto.js
  * @version 2.0 | Monday, 14th May 2013
- * @author  Beau Charman | @beaucharman | http://beaucharman.me
+ * @author  Beau Charman | @beaucharman | http://www.beaucharman.me
  * @link    https://github.com/beaucharman/rock-n-scrollto
+ * @license MIT license
  * @param {object} options
  *          {integer}  offset
  *          {integer}  speed
