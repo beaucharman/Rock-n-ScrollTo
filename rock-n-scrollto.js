@@ -16,13 +16,16 @@
  * ======================================================================== */
 ;(function ($) {
   'use strict';
+
   $.fn.rockNScrollTo = function (options) {
+
     var settings = $.extend({
       'offset': 0,
       'speed': 400,
       'easing': 'swing',
       'callback': null
     }, options);
+
     return this.each(function () {
       $('body').animate({
         scrollTop: $(this).offset().top - settings.offset
