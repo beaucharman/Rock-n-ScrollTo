@@ -19,7 +19,7 @@ http://easings.net/
 **JavaScript**
 
 ```javascript
-$('document').ready(function() {
+;(function($) {
   // fire!
   $('button').on('click', function() {
 
@@ -32,5 +32,18 @@ $('document').ready(function() {
 
     return false; // stop anchor from performing it's default action.
   });
-});
+}(jQuery));
+```
+
+### One Page Site Idea
+
+Why not use `rockNScrollTo.js` along with [snapify.js](https://gist.github.com/beaucharman/5762858) for a rad single page site menu
+
+```javascript
+;(function($) {
+
+  $('.page--nav').snapify().find('a').rockNScrollTo();
+
+}(jQuery));
+
 ```
