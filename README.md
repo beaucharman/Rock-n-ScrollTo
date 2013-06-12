@@ -45,5 +45,4 @@ Why not use `rockNScrollTo.js` along with [snapify.js](https://gist.github.com/b
   $('.page--nav').snapify().find('a').rockNScrollTo();
 
 }(jQuery));
-
 ```
