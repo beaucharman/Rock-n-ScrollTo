@@ -42,7 +42,12 @@ Why not use **rock-n-scrollto.js** along with [snapify.js](https://gist.github.c
 ```javascript
 ;(function($) {
 
-  $('.page--nav').snapify().find('a').rockNScrollTo();
+  $('nav ul').snapify().find('a').each(function () {
+    $(this).on('click', function () {
+      $($(this).attr('href')).rockNScrollTo();
+      return false;
+    });
+  });
 
 }(jQuery));
 ```
