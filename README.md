@@ -37,7 +37,7 @@ http://easings.net/
 
 ### One Page Site Idea
 
-Why not use **rockNScrollTo.js** along with [snapify.js](https://gist.github.com/beaucharman/5762858) for a rad single page site menu.
+Why not use **rock-n-scrollto.js** along with [snapify.js](https://gist.github.com/beaucharman/5762858) for a rad single page site menu.
 
 ```javascript
 ;(function($) {
