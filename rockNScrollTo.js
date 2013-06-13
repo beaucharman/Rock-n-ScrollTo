@@ -1,10 +1,10 @@
 /**
  * Rock 'n ScrollTo
  * ========================================================================
- * rock-n-scrollto.js
+ * rockNScrollTo.js
  * @version 2.0 | Monday, 14th May 2013
  * @author  Beau Charman | @beaucharman | http://www.beaucharman.me
- * @link    https://github.com/beaucharman/rock-n-scrollto
+ * @link    https://github.com/beaucharman/rockNScrollTo.js
  * @license MIT license
  * @param {object} options
  *          {integer}  offset
