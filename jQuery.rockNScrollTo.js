@@ -1,7 +1,7 @@
 /**
- * Rock 'n ScrollTo
- * ========================================================================
  * rockNScrollTo.js
+ * ========================================================================
+ * jQuery.rockNScrollTo.js
  * @version 2.0 | Monday, 14th May 2013
  * @author  Beau Charman | @beaucharman | http://www.beaucharman.me
  * @link    https://github.com/beaucharman/rockNScrollTo.js
