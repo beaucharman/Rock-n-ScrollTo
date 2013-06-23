@@ -7,18 +7,19 @@
 **JavaScript**
 
 ```javascript
-;(function($) {
+;(function ($) {
   // fire!
-  $('button').on('click', function() {
+  $('button').on('click', function () {
 
     $('#destination').rockNScrollTo({
       'speed': 2000,
-      'callback': function(){
+      'callback': function () {
         // stuff to run after rockNScrollTo has finished it's business.
       }
     });
 
-    return false; // stop anchor from performing it's default action.
+    return false; // stop anchor from performing it's default action
+
   });
 }(jQuery));
 ```
