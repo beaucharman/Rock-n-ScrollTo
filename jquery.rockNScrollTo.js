@@ -27,7 +27,7 @@
     }, options);
 
     return this.each(function () {
-      $('body').animate({
+      $('html, body').animate({
         scrollTop: $(this).offset().top - settings.offset
       }, settings.speed, settings.easing, settings.callback);
     });
